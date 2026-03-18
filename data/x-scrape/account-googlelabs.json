@@ -1,0 +1,118 @@
+{
+  "query": "from:googlelabs lang:en -is:retweet -is:reply",
+  "fetchedAt": "2026-03-17T15:08:27.606Z",
+  "tweets": [
+    {
+      "author": "Google Labs",
+      "handle": "@GoogleLabs",
+      "text": "See availability here: support.google.com/labs/answ…",
+      "time": null,
+      "stats": {},
+      "url": "https://nitter.net/GoogleLabs/status/2031050798126473466#m"
+    },
+    {
+      "author": "Google Labs",
+      "handle": "@GoogleLabs",
+      "text": "We've heard you and... it's happening :) 🌎\n\nWe just expanded Pomelli to over 170 countries & territories!\n\nWe can't wait to see how you use it. Get started now at: labs.google/pomelli",
+      "time": null,
+      "stats": {},
+      "url": "https://nitter.net/GoogleLabs/status/2031050796280975724#m"
+    },
+    {
+      "author": "Google Labs",
+      "handle": "@GoogleLabs",
+      "text": "Woah. It’s been a little over 2 months since the start of 2026. Here's what we’ve dropped so far:\n\n🚀 @FlowbyGoogle: Our biggest update yet. We’ve redesigned the interface, bringing image generation to the forefront, making it easier to manage assets, and giving you more precise control over your images and videos. We also made improvements to Veo 3.1 and welcomed Nano Banana 2 to the model lineup for even more expressive and consistent outputs. (Also, come say hi on Instagram: @ flowbygoogle!)\n\n🚀 @JulesAgent: A major speed boost, all Jules free-tier users have been upgraded from Gemini 2.5 Pro to Gemini 3 Flash.\n\n🚀 SynthID: We've added the ability to check whether audio is Google AI-generated (in addition to image and video). Generative media content made with Labs products can be uploaded to the Gemini app to see if they've been generated using Google AI. Simply type @ SynthID and ask \"Is this AI?\"\n\n🚀 @StitchbyGoogle: We leveled up the MCP ecosystem. Users can now get step-by-step MCP client instructions and grab their API key directly from the Exports panel. We also joined the Antigravity MCP store and added new tools, like a coding agent that can ask to edit screens and generate screen variants.\n\n🚀 Project Genie: Introducing an early research prototype powered by @GoogleDeepMind’s Genie 3 model, Project Genie lets users create and explore infinitely diverse worlds. Available to AI Ultra subscribers in the US.\n\n🚀 @NotebookLM: A massive month for mobile. Users can now add customization prompts to Infographics and Slide Decks directly and generate video overviews on the mobile app. Plus, NotebookLM partnered with @Zillow to launch a featured notebook pre-loaded with their extensive home buying resources. Be on the lookout for other exciting partnerships to come!\n\n🚀 Pomelli: Launched ‘Photoshoot,’ allowing users to take a single image of their product and easily create high quality, customized product shots to elevate their marketing.\n\n🚀 Opal: Introduced a new agent step that analyzes a goal, determines the next best step, and automatically calls models and tools to finish a the task, such as Veo for video or web search for research.\n\n🚀 @Producer_AI: Welcomed ProducerAI to Labs! ProducerAI is a creative collaborator, whether writing lyrics, refining a melody, or inventing entirely new genres.\n\nWhat a start to the year. 2026 is just getting warmed up.\n\nExplore all of our experiments at: labs.google",
+      "time": null,
+      "stats": {},
+      "url": "https://nitter.net/GoogleLabs/status/2029987336684196032#m"
+    },
+    {
+      "author": "Google Labs",
+      "handle": "@GoogleLabs",
+      "text": "This is awesome - major congrats 🚀",
+      "time": null,
+      "stats": {},
+      "url": "https://nitter.net/GoogleLabs/status/2029439829327659258#m"
+    },
+    {
+      "author": "Google Labs",
+      "handle": "@GoogleLabs",
+      "text": "Pomelli news 🚀 We’ve been blown away by your excitement for Pomelli! That’s why we’re thrilled to announce that it is rolling out to India and getting into the hands of more users.\n\nStay tuned, more countries are coming very soon ;)",
+      "time": null,
+      "stats": {},
+      "url": "https://nitter.net/GoogleLabs/status/2027066774404088138#m"
+    },
+    {
+      "author": "Google Labs",
+      "handle": "@GoogleLabs",
+      "text": "As Google’s home for experimental AI innovation, what excites us most is trying new things, learning, and exploring revolutionary ways to bring the power of our AI models directly to you.\n\nKeeping that Labs energy going, starting today, Whisk and ImageFX will begin to join forces with @FlowbyGoogle, integrating your favorite image and video generation features from Google Labs experiments under one roof. We are excited to keep building alongside you, and we can’t wait to see what you all create!\n\nLearn more here: blog.google/innovation-and-a…",
+      "time": null,
+      "stats": {},
+      "url": "https://nitter.net/GoogleLabs/status/2026705377753227753#m"
+    },
+    {
+      "author": "Google Labs",
+      "handle": "@GoogleLabs",
+      "text": "Opal, our no-code visual builder for AI workflows, just got a major upgrade. 🧠💎\n\nWe’ve added a new agent step that analyzes your goal, determines the best approach, and automatically calls the right tools — such as Veo for video or web search for research — to complete the task.\n\nWe’re also adding new tools to make the agent even more capable:\n\n💾 Memory – Remember info, like a user’s name or your style preferences across sessions.\n🚀 Dynamic Routing – Let the agent choose the next best step using the “@ Go to” tool.\n💬 Interactive Chat – Initiate user interactions to gather missing information or present options before moving on.\n\nTry it now → opal.google",
+      "time": null,
+      "stats": {},
+      "url": "https://nitter.net/GoogleLabs/status/2026374947996840169#m"
+    },
+    {
+      "author": "Google Labs",
+      "handle": "@GoogleLabs",
+      "text": "🚨 Big news: @producer_ai is officially joining Google Labs! 🎶 \n\nProducerAI is a creative collaborator, whether you’re writing lyrics, developing a melody or experimenting with genres. With ProducerAI, you can turn your imagination into dynamic tracks.\n\nWe share ProducerAI’s mission of helping artists of every level make the music they imagine with Lyria 3, and are excited to welcome them to the Labs family. \n\nLearn more: blog.google/innovation-and-a…",
+      "time": null,
+      "stats": {},
+      "url": "https://nitter.net/GoogleLabs/status/2026298281551438124#m"
+    },
+    {
+      "author": "Google Labs",
+      "handle": "@GoogleLabs",
+      "text": "Pomelli’s Photoshoot feature also allows you to create and edit your own product images from scratch. \n\nDescribe the image you want or upload any image as a reference to create custom assets quickly.",
+      "time": null,
+      "stats": {},
+      "url": "https://nitter.net/GoogleLabs/status/2024549527689064528#m"
+    },
+    {
+      "author": "Google Labs",
+      "handle": "@GoogleLabs",
+      "text": "Today, we’re introducing Pomelli’s latest feature update, ‘Photoshoot’ \n\nWith Photoshoot, you can start from a single image of your product and easily create high quality, customized product shots to elevate your marketing. \n\nAvailable free of charge in the US, Canada, Australia & New Zealand! Get started with Pomelli today at labs.google/pomelli",
+      "time": null,
+      "stats": {},
+      "url": "https://nitter.net/GoogleLabs/status/2024529795548102667#m"
+    },
+    {
+      "author": "Google Labs",
+      "handle": "@GoogleLabs",
+      "text": "Something new is coming to Pomelli…  👀",
+      "time": null,
+      "stats": {},
+      "url": "https://nitter.net/GoogleLabs/status/2024207268250865802#m"
+    },
+    {
+      "author": "Google Labs",
+      "handle": "@GoogleLabs",
+      "text": "ICYMI: Labs was invited to have the mic on @theneurondaily podcast! 🎙️\n\nOur Product Managers talked about 3 of the experiments we've built, shared live demos, and chatted about what's to come in the future.\n\n🎨 Mixboard: @jacalulu demoed our AI-powered concepting board with Nano Banana Pro, and gave insight into how Mixboard will continue to evolve as a visual-first exploration tool.\n\n🎬 Flow: Thomas walked through how to create scroll-stopping images and videos with @FlowbyGoogle, and shared how Flow continues to evolve its features to find new ways to empower creatives.\n\n🤖 Opal: @_megs_li shared a look at our no-code AI mini app builder, which lets you create custom AI workflows using natural language, and talked about how the team is excited to continue lowering barriers and empowering people to build useful apps.\n\nListen to the full episode: piped.video/vJD2FjVUEhg?si=X1Vr…",
+      "time": null,
+      "stats": {},
+      "url": "https://nitter.net/GoogleLabs/status/2019893446933438957#m"
+    },
+    {
+      "author": "Google Labs",
+      "handle": "@GoogleLabs",
+      "text": "Just a pipe cleaner, a dream, and Project Genie: an early research prototype that generates photorealistic environments that can be explored in real-time. 😀\n\nWith Project Genie, turn everyday objects into characters in interactive environments. Snap a picture, build your character, and explore worlds only you could dream up. Go on pipe cleaner, live your best life!\n\nLearn more, currently available to Ultra subscribers in the US, 18+: labs.google/projectgenie",
+      "time": null,
+      "stats": {},
+      "url": "https://nitter.net/GoogleLabs/status/2019489235573637602#m"
+    },
+    {
+      "author": "Google Labs",
+      "handle": "@GoogleLabs",
+      "text": "Because your pet already thinks the universe revolves around them… why not create one that actually does?\n\nWith Project Genie, upload a picture of your pet and have them explore infinitely diverse worlds.\n\nLearn more: labs.google/projectgenie",
+      "time": null,
+      "stats": {},
+      "url": "https://nitter.net/GoogleLabs/status/2016974664158089425#m"
+    }
+  ]
+}

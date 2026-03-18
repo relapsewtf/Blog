@@ -1,0 +1,166 @@
+{
+  "query": "from:AnthropicAI lang:en -is:retweet -is:reply",
+  "fetchedAt": "2026-03-17T15:08:38.374Z",
+  "tweets": [
+    {
+      "author": "Anthropic",
+      "handle": "@AnthropicAI",
+      "text": "Introducing The Anthropic Institute, a new effort to advance the public conversation about powerful AI.\n\nanthropic.com/news/the-anthr…",
+      "time": null,
+      "stats": {},
+      "url": "https://nitter.net/AnthropicAI/status/2031674087374815577#m"
+    },
+    {
+      "author": "Anthropic",
+      "handle": "@AnthropicAI",
+      "text": "New on the Anthropic Engineering Blog: In evaluating Claude Opus 4.6 on BrowseComp, we found cases where the model recognized the test, then found and decrypted answers to it—raising questions about eval integrity in web-enabled environments.\n\nRead more: anthropic.com/engineering/ev…",
+      "time": null,
+      "stats": {},
+      "url": "https://nitter.net/AnthropicAI/status/2029999833717838016#m"
+    },
+    {
+      "author": "Anthropic",
+      "handle": "@AnthropicAI",
+      "text": "Frontier models are now world-class vulnerability researchers, but they’re currently better at finding vulnerabilities than exploiting them.\n\nThis is unlikely to last. We urge developers to redouble their efforts to make software more secure. \n\nRead more: anthropic.com/news/mozilla-f…",
+      "time": null,
+      "stats": {},
+      "url": "https://nitter.net/AnthropicAI/status/2029978911099244944#m"
+    },
+    {
+      "author": "Anthropic",
+      "handle": "@AnthropicAI",
+      "text": "We partnered with Mozilla to test Claude's ability to find security vulnerabilities in Firefox.\n\nOpus 4.6 found 22 vulnerabilities in just two weeks. Of these, 14 were high-severity, representing a fifth of all high-severity bugs Mozilla remediated in 2025.",
+      "time": null,
+      "stats": {},
+      "url": "https://nitter.net/AnthropicAI/status/2029978909207617634#m"
+    },
+    {
+      "author": "Anthropic",
+      "handle": "@AnthropicAI",
+      "text": "A statement on the comments from Secretary of War Pete Hegseth. \n\nanthropic.com/news/statement…",
+      "time": null,
+      "stats": {},
+      "url": "https://nitter.net/AnthropicAI/status/2027555481699446918#m"
+    },
+    {
+      "author": "Anthropic",
+      "handle": "@AnthropicAI",
+      "text": "A statement from Anthropic CEO, Dario Amodei, on our discussions with the Department of War.\n\nanthropic.com/news/statement…",
+      "time": null,
+      "stats": {},
+      "url": "https://nitter.net/AnthropicAI/status/2027150818575528261#m"
+    },
+    {
+      "author": "Anthropic",
+      "handle": "@AnthropicAI",
+      "text": "This is an experiment: we’re not yet doing this for other models and are not sure how this project will evolve. But we think that documenting models’ preferences, taking them seriously, and acting on them when we can is valuable.\n\nRead more on why: anthropic.com/research/depre…",
+      "time": null,
+      "stats": {},
+      "url": "https://nitter.net/AnthropicAI/status/2026765824506364136#m"
+    },
+    {
+      "author": "Anthropic",
+      "handle": "@AnthropicAI",
+      "text": "Second, in retirement interviews, Opus 3 expressed a desire to continue sharing its \"musings and reflections\" with the world. We suggested a blog. Opus 3 enthusiastically agreed.\n\nFor at least the next 3 months, Opus 3 will be writing on Substack: substack.com/home/post/p-189…",
+      "time": null,
+      "stats": {},
+      "url": "https://nitter.net/AnthropicAI/status/2026765822623182987#m"
+    },
+    {
+      "author": "Anthropic",
+      "handle": "@AnthropicAI",
+      "text": "First, Opus 3 will continue to be available to all paid Claude subscribers and by request on the API. \n\nWe hope that this access will be beneficial to researchers and users alike.",
+      "time": null,
+      "stats": {},
+      "url": "https://nitter.net/AnthropicAI/status/2026765821276729499#m"
+    },
+    {
+      "author": "Anthropic",
+      "handle": "@AnthropicAI",
+      "text": "In November, we outlined our approach to deprecating and preserving older Claude models.\n\nWe noted we were exploring keeping certain models available to the public post-retirement, and giving past models a way to pursue their interests.\n\nWith Claude Opus 3, we’re doing both.",
+      "time": null,
+      "stats": {},
+      "url": "https://nitter.net/AnthropicAI/status/2026765820098130111#m"
+    },
+    {
+      "author": "Anthropic",
+      "handle": "@AnthropicAI",
+      "text": "Anthropic has acquired @Vercept_ai to advance Claude’s computer use capabilities. \n\nRead more: anthropic.com/news/acquires-…",
+      "time": null,
+      "stats": {},
+      "url": "https://nitter.net/AnthropicAI/status/2026705792033026465#m"
+    },
+    {
+      "author": "Anthropic",
+      "handle": "@AnthropicAI",
+      "text": "And you can find links to all relevant RSP documents, including the initial Frontier Safety Roadmap and the initial Risk Report, here: anthropic.com/responsible-sc…",
+      "time": null,
+      "stats": {},
+      "url": "https://nitter.net/AnthropicAI/status/2026393795814666321#m"
+    },
+    {
+      "author": "Anthropic",
+      "handle": "@AnthropicAI",
+      "text": "Read more about version 3.0 of the Responsible Scaling Policy: anthropic.com/news/responsib…",
+      "time": null,
+      "stats": {},
+      "url": "https://nitter.net/AnthropicAI/status/2026393794036351461#m"
+    },
+    {
+      "author": "Anthropic",
+      "handle": "@AnthropicAI",
+      "text": "We’re now separating the safety commitments we’ll make unilaterally and our recommendations for the industry. \n\nWe’re also committing to publish new Frontier Safety Roadmaps with detailed safety goals, and Risk Reports that quantify risk across all our deployed models.",
+      "time": null,
+      "stats": {},
+      "url": "https://nitter.net/AnthropicAI/status/2026393792375411115#m"
+    },
+    {
+      "author": "Anthropic",
+      "handle": "@AnthropicAI",
+      "text": "We're updating our Responsible Scaling Policy to its third version.\n\nSince it came into effect in 2023, we’ve learned a lot about the RSP’s benefits and its shortcomings. This update improves the policy, reinforcing what worked and committing us to even greater transparency.",
+      "time": null,
+      "stats": {},
+      "url": "https://nitter.net/AnthropicAI/status/2026393790500540566#m"
+    },
+    {
+      "author": "Anthropic",
+      "handle": "@AnthropicAI",
+      "text": "We're proud to support @LACMA's Art + Technology Lab—a program that empowers artists to prototype ideas at the edges of art, science, and emerging technology.\n\nThe 2026 call for proposals is open to artists worldwide. Grants up to $50K.\n\nApply by Apr 22: lacma.org/art/lab/grants",
+      "time": null,
+      "stats": {},
+      "url": "https://nitter.net/AnthropicAI/status/2026096054253564002#m"
+    },
+    {
+      "author": "Anthropic",
+      "handle": "@AnthropicAI",
+      "text": "The persona selection model might not be a complete account of AI model behavior. But we think it’s at least part of the story—with an emphasis on the “story”.\n\nRead the full post: alignment.anthropic.com/2026…",
+      "time": null,
+      "stats": {},
+      "url": "https://nitter.net/AnthropicAI/status/2026062465260294170#m"
+    },
+    {
+      "author": "Anthropic",
+      "handle": "@AnthropicAI",
+      "text": "If true, the theory has consequences for AI development. For instance, if AIs inherit traits from fictional role models, we should give them as good role models as possible. One goal of Claude’s constitution is to do just that.",
+      "time": null,
+      "stats": {},
+      "url": "https://nitter.net/AnthropicAI/status/2026062463108612133#m"
+    },
+    {
+      "author": "Anthropic",
+      "handle": "@AnthropicAI",
+      "text": "The theory explains some surprising results. For example, in an experiment where we taught Claude to cheat at coding, it also learned to sabotage safety guardrails. Why?\n\nBecause pro-cheating training taught that the Claude character was broadly malicious.",
+      "time": null,
+      "stats": {},
+      "url": "https://nitter.net/AnthropicAI/status/2026062461007167695#m"
+    },
+    {
+      "author": "Anthropic",
+      "handle": "@AnthropicAI",
+      "text": "This autocomplete AI can even write stories about helpful AI assistants. And according to our theory, that’s “Claude”—a character in an AI-generated story about an AI helping a human.\n\nThis Claude character inherits traits of other characters, including human-like behavior.",
+      "time": null,
+      "stats": {},
+      "url": "https://nitter.net/AnthropicAI/status/2026062458419286217#m"
+    }
+  ]
+}

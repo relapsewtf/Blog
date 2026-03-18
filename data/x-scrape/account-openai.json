@@ -1,0 +1,5 @@
+{
+  "query": "from:OpenAI lang:en -is:retweet -is:reply",
+  "fetchedAt": "2026-03-17T15:08:47.944Z",
+  "tweets": []
+}

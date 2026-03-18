@@ -1,0 +1,5 @@
+{
+  "query": "from:Infineon lang:en -is:retweet -is:reply",
+  "fetchedAt": "2026-03-17T15:07:35.793Z",
+  "tweets": []
+}

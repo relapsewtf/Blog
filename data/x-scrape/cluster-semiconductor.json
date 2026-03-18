@@ -1,0 +1,5 @@
+{
+  "query": "(\"Semiconductor talent shortage DACH\" OR \"Halbleiter Fachkräftemangel\" OR \"Chip industry hiring Europe\" OR \"Semiconductor engineer recruiting\" OR \"TSMC expansion Europe jobs\" OR \"Halbleiterindustrie Ingenieure Schweiz\" OR \"swissmem\") lang:en -is:retweet -is:reply",
+  "fetchedAt": "2026-03-17T15:07:04.020Z",
+  "tweets": []
+}

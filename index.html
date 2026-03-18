@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="Modern showcase for your AI-generated blog drafts and source posts."
+  />
+  <title>DraftVerse | Blog Showcase</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@300;400;500&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="./src/showcase/styles.css" />
+</head>
+<body class="intro-lock">
+  <div class="intro-overlay" id="intro-overlay" aria-hidden="true">
+    <div class="intro-inner">
+      <p class="intro-kicker">catcape</p>
+      <div class="ascii-cat-scene" aria-label="Large ASCII cat">
+<pre class="ascii-cat-large">             *     ,MMM8&&&.            *
+                  MMMM88&&&&&    .
+                 MMMM88&&&&&&&
+     *           MMM88&&&&&&&&
+                 MMM88&&&&&&&&
+                 'MMM88&&&&&&'
+                   'MMM8&&&'      *
+          |\___/|
+          )     (             .              '
+         =\     /=
+           )===(       *
+          /     \
+          |     |
+         /       \
+         \       /
+  _/\_/\_/\__  _/_/\_/\_/\_/\_/\_/\_/\_/\_/\_
+  |  |  |  |( (  |  |  |  |  |  |  |  |  |  |
+  |  |  |  | ) ) |  |  |  |  |  |  |  |  |  |
+  |  |  |  |(_(  |  |  |  |  |  |  |  |  |  |
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |</pre>
+      </div>
+      <div class="intro-progress">
+        <span class="intro-progress-bar"></span>
+      </div>
+    </div>
+  </div>
+  <div class="scroll-progress" id="scroll-progress"></div>
+  <div class="cursor-aura" id="cursor-aura"></div>
+  <div class="float-particles" id="float-particles" aria-hidden="true"></div>
+  <div class="bg-glow bg-glow-1"></div>
+  <div class="bg-glow bg-glow-2"></div>
+  <div class="grid-overlay"></div>
+
+  <main class="layout">
+    <header class="hero reveal">
+      <p class="chip">Curated Draft Library</p>
+      <h1>Your blog drafts, reimagined as a premium publishing hub.</h1>
+      <p class="hero-copy">
+        Explore every generated draft, filter by source, search by topic, and open any card
+        for a focused reading experience. Fast, clean, animated, and made for flow.
+      </p>
+      <div class="hero-stats" id="hero-stats">
+        <article class="stat-card">
+          <p class="stat-label">Total Drafts</p>
+          <p class="stat-value" id="stat-total">0</p>
+        </article>
+        <article class="stat-card">
+          <p class="stat-label">Sources</p>
+          <p class="stat-value" id="stat-sources">0</p>
+        </article>
+        <article class="stat-card">
+          <p class="stat-label">Avg. Length</p>
+          <p class="stat-value" id="stat-average">0 words</p>
+        </article>
+      </div>
+    </header>
+
+    <section class="ticker reveal" aria-label="Trending topics">
+      <div class="ticker-track" id="ticker-track">
+        <span>Loading topics...</span>
+      </div>
+    </section>
+
+    <section class="spotlight reveal">
+      <div class="section-head">
+        <h2>Featured Draft</h2>
+        <p>Der aktuell stärkste Entwurf nach Relevanz, Tiefe und Signalwirkung.</p>
+      </div>
+      <article class="featured-card" id="featured-card"></article>
+    </section>
+
+    <section class="important reveal">
+      <div class="section-head">
+        <h2>Most Important Now</h2>
+        <p>Kuratiert aus den wichtigsten Drafts für schnelle Priorisierung.</p>
+      </div>
+      <div class="important-grid" id="important-grid"></div>
+    </section>
+
+    <section class="control-panel reveal">
+      <label class="field">
+        <span>Search drafts</span>
+        <input id="search-input" type="text" placeholder="Try: security, tariffs, Google Labs..." />
+      </label>
+
+      <label class="field">
+        <span>Filter by source</span>
+        <select id="source-filter">
+          <option value="all">All sources</option>
+        </select>
+      </label>
+
+      <label class="field">
+        <span>Sort by</span>
+        <select id="sort-filter">
+          <option value="longest">Longest first</option>
+          <option value="shortest">Shortest first</option>
+          <option value="source">Source name (A-Z)</option>
+          <option value="author">Author (A-Z)</option>
+        </select>
+      </label>
+    </section>
+
+    <section class="results-head reveal">
+      <p id="result-count">Loading drafts...</p>
+      <button class="ghost-btn magnetic" id="clear-filters">Reset filters</button>
+    </section>
+
+    <section class="card-grid" id="card-grid"></section>
+  </main>
+
+  <aside class="modal-backdrop" id="modal-backdrop" aria-hidden="true">
+    <article class="modal">
+      <header class="modal-header">
+        <div class="modal-meta">
+          <p class="chip" id="modal-source"></p>
+          <h2 id="modal-title">Draft details</h2>
+          <p id="modal-author"></p>
+        </div>
+        <button class="close-btn" id="close-modal" aria-label="Close details">Close</button>
+      </header>
+
+      <div class="modal-layout">
+        <aside class="modal-side">
+          <h3>Source Post</h3>
+          <p id="modal-tweet"></p>
+          <a class="modal-link" id="modal-link" href="#" target="_blank" rel="noreferrer">Open original post</a>
+          <div class="modal-stats">
+            <p class="pill" id="modal-words">0 words</p>
+            <p class="pill" id="modal-importance">Importance 0</p>
+          </div>
+        </aside>
+
+        <section class="modal-content">
+          <div class="modal-content-head">
+            <h3>Draft Content</h3>
+            <button class="primary-btn magnetic" id="copy-draft">Copy draft</button>
+          </div>
+          <article id="modal-draft"></article>
+        </section>
+      </div>
+    </article>
+  </aside>
+
+  <script type="module" src="./src/showcase/app.js"></script>
+</body>
+</html>
